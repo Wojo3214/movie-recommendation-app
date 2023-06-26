@@ -28,3 +28,18 @@ ion-toolbar.toolbar-home{
     color: #808080;
     margin-top: 24px;
 }
+
+
+/**INFO MODAL**/
+ion-modal.info-modal ion-toolbar{
+    --background: none;
+}
+
+.info-modal-container {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
