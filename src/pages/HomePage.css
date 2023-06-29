@@ -29,6 +29,9 @@ ion-toolbar.toolbar-home{
     margin-top: 24px;
 }
 
+form{
+    height: 100%;
+}
 
 /**INFO MODAL**/
 ion-modal.info-modal ion-toolbar{
@@ -42,4 +45,26 @@ ion-modal.info-modal ion-toolbar{
     justify-content: center;
     align-items: center;
     height: 100%;
+}
+
+/**PREFERENCES MODAL**/
+.slider{
+    height: 100%;
+}
+
+ion-header .preferences-modal-toolbar {
+    padding-left: 0;
+}
+
+ion-header .preferences-modal-toolbar > ion-title{
+    padding-left: 0;
+}
+
+.form-group-1{
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    gap: 16px;
 }
