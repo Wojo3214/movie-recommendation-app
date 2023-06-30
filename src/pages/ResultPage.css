@@ -35,4 +35,40 @@
     transition: 0.3s;
 }
 
-/* margin-right: calc((1.2 - 1) * (100% + 16px)); */
+/* CARD MODAL STYLING */
+
+.modal-result-content .movie-poster{
+    width: 250px;
+    height: 350px;
+    border-radius: 20px;
+    display: block;
+    margin: 0 auto;
+}
+
+.modal-result-content h2{
+    margin-bottom: 8px;
+}
+
+.modal-result-content ion-chip{
+    --background: #000;
+}
+
+.ratings{
+    display: flex;
+    gap: 4px;
+    align-items: center;
+    font-size: 14px;
+    color: #4b4b4b;
+}
+
+.ratings ion-icon{
+    color: var(--ion-color-warning);
+}
+
+.movie-categories{
+    margin-top: 16px;
+}
+
+.modal-result-content ion-item {
+    --border-radius: 8px;
+}
